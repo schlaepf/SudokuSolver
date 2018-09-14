@@ -19,10 +19,19 @@ Whereas the zeros are interpreted as empty fields, which need to be filled by th
 
 After the startup of the program it looks like this:
 
-[Picture]
+![start](https://user-images.githubusercontent.com/18100041/45557340-a96fea80-b83d-11e8-9606-8d909dc5dd37.PNG)
 
-After the input file is loaded the sudoku can be solved!
+After the input file is loaded the sudoku can be solved:
+
+![after_file](https://user-images.githubusercontent.com/18100041/45557338-a96fea80-b83d-11e8-9dc1-b7578e3befd1.PNG)
+
+Then - depending on wheter the sudoku can be solved - the solved puzzle is displayed:
+
+![solved](https://user-images.githubusercontent.com/18100041/45557339-a96fea80-b83d-11e8-8770-4a05738ed337.PNG)
 
 
-
-## Testing (Not necessary to use the application but still interesting)
+## Testing
+The solver was tested with some sample inputs, which can be found in the folder *test_input_files*.
+Most of the test cases can be found here:
+- [invalid test cases](http://sudopedia.enjoysudoku.com/Invalid_Test_Cases.html)
+- [valid test cases](http://sudopedia.enjoysudoku.com/Valid_Test_Cases.html)
