@@ -63,7 +63,7 @@ class TestSudokuSolver(TestCase):
 
     def test_get_next_square(self):
         solver = self.get_solver_object()
-        self.assertEquals(solver.get_next_square((0, 8)), (1, 0))
+        self.assertEqual(solver.get_next_square((0, 8)), (1, 0))
 
     def test_is_number_allowed_true(self):
         solver = self.get_solver_object()
