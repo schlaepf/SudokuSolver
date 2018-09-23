@@ -15,13 +15,13 @@ The input - the sudoku puzzle to solve - comes from a file which the user has to
 800203009  
 005010300  
 
-Whereas the zeros are interpreted as empty fields, which need to be filled by the application. If the input file is in a wrong format, the application will display a warning.
+Whereas the zeros are interpreted as empty fields, which need to be filled by the application in order to solve the sudoku. If the input file is in a wrong format, the application will display a warning.
 
 After the startup of the program it looks like this:
 
 ![start](https://user-images.githubusercontent.com/18100041/45557340-a96fea80-b83d-11e8-9606-8d909dc5dd37.PNG)
 
-After the input file is loaded the sudoku can be solved:
+After the input file is loaded, the sudoku can be solved:
 
 ![after_file](https://user-images.githubusercontent.com/18100041/45557338-a96fea80-b83d-11e8-9dc1-b7578e3befd1.PNG)
 
